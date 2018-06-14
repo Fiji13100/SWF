@@ -1,0 +1,68 @@
+
+body {
+    background-image: url("http://localhost/SWF/assets/image/background/background.jpg")
+}
+
+
+
+div[id="addform-element"] {
+  position: relative;
+  top: 60px; left: 650px;
+}
+
+
+label[for="addform-element"] {
+  position: relative;
+  top: 40px; left: 650px;
+}
+
+
+div[id="addform-monster"] {
+  position: relative;
+  top: 100px; left: autopx;
+}
+
+label[for="addform-monster"] {
+  position: relative;
+  top: 80px; left: 780px;
+}
+
+
+select[id="addform-server"] {
+  position: relative;
+  top: 5px; left: 750px;
+}
+
+label[for="addform-server"] {
+  position: relative;
+  top: 5px; left: 730px;
+}
+
+input[id="addform-timer"] {
+  position: relative;
+  top: 150px; left: 500px;
+}
+
+label[for="addform-timer"] {
+  position: relative;
+  top: 150px; left: 500px;
+}
+
+input[id="addform-pseudo"] {
+  position: relative;
+  top: 150px; left: 500px;
+}
+
+label[for="addform-pseudo"] {
+  position: relative;
+  top: 150px; left: 500px;
+}
+
+input[type="submit"] {
+	position: relative;
+	top: 150; left: 500px
+}
+
+input[type="radio"] {
+	margin: 20px;
+}
