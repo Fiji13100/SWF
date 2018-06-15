@@ -1,0 +1,47 @@
+.Addform {
+    padding: 20px;
+    display: flex;
+    flex-direction: column;
+}
+
+.Addform-Row {
+    margin-bottom: 20px;
+
+}
+
+.Addform-Label {
+    display: block;
+    text-decoration: underline;
+    margin-bottom: 5px;
+    
+}
+
+.Addform-Cell {
+    margin-right: 20px;
+    float: left;
+}
+.Addform-Cell:last-child {
+    margin-right: 0;
+}
+
+.Addform-Monsters {
+
+    margin-bottom: 20px;   
+}
+
+.Addform-MonstersElement {
+    width: 500px;
+    margin-bottom: 20px;
+}
+
+.Addform-MonstersElement label {
+    display: inline-block;
+}
+
+.Addform-Row  .Addfor {
+    display: flex;
+    flex-direction: column;
+    margin-bottom: 20px;
+    text-decoration: underline;
+
+}
